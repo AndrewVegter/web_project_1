@@ -339,6 +339,8 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .footer__social-icons {
   width: 16px;
