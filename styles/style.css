@@ -3,7 +3,6 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  border: solid 1px rgb(114, 114, 114);
 }
 
 .header {
@@ -20,13 +19,19 @@
 }
 
 .logo_place_header {
+  background-image: url("/images/logo_place_header.png");
+  background-repeat: no-repeat;
+  background-size: 154px 31px;
   width: 154px;
+  height: 31px;
   position: absolute;
   top: 30px;
   left: 64px;
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
   align-self: center;
   margin-left: 64px;
   z-index: 2;
@@ -37,6 +42,8 @@
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -48,6 +55,8 @@
 }
 
 .header__link {
+  margin: 0;
+  padding: 0;
   color: #2f80ed;
   text-decoration: none;
 }
@@ -81,19 +90,15 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
 }
 
 .two-columns__brief {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   width: 175px;
-  margin: 0;
-}
-
-.two-columns__brief_link {
   color: #2f80ed;
   text-decoration: none;
 }
@@ -104,15 +109,15 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
+  padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 0;
-  margin-right: 0;
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph_bottom-margin_none {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -129,20 +134,21 @@
   justify-content: center;
 }
 
-.section__title {
-  width: 60%;
+.section-title {
+  margin: 0;
   padding: 0;
-  margin: 0 auto 20px;
+  width: 60%;
+  margin-bottom: 20px;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
-.section__subtitle {
-  width: 60%;
+.section-subtitle {
+  margin: 0;
   padding: 0;
-  margin: 0 auto;
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -150,13 +156,13 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .table__cell {
@@ -165,25 +171,24 @@
 }
 
 .table__heading {
-  margin: 0 auto 20px;
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
-}
-
-.table__text_source {
-  margin: 20px auto 0;
+  margin-top: 20px;
 }
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -193,10 +198,11 @@
 }
 
 .feynman__title {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  padding: 0;
   margin-top: 100px;
   margin-bottom: 70px;
   width: 775px;
@@ -205,15 +211,19 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   padding: 0;
-  margin: 0 auto;
+  text-align: center;
   z-index: 1;
 }
 
 .feynman__link {
+  margin: 0;
+  padding: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -250,13 +260,18 @@
   width: 660px;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
+  margin: 0;
+  padding: 0;
   margin-top: 90px;
+  margin-bottom: 20px;
   color: white;
   z-index: 1;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
+  margin: 0;
+  padding: 0;
   z-index: 1;
   color: white;
 }
@@ -314,23 +329,29 @@
   height: 35px;
 }
 .footer__author {
+  margin: 0;
+  padding: 0;
   padding: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 0;
   margin-bottom: 20px;
 }
 .footer__list {
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
 .footer__column-link {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
