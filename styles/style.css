@@ -93,6 +93,7 @@
 .rotation {
   animation: rotation 20s linear infinite;
 }
+
 .description {
   margin: 100px auto;
 }
@@ -139,6 +140,80 @@
   font-weight: bold;
 }
 
+.techniques {
+  margin: 100px auto;
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards__item {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  width: 240px;
+}
+
+.cards__image {
+  padding: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0 40px;
+}
+
+.cards__title {
+  margin: 0;
+  padding: 0;
+  margin: 43px auto 16px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin: 100px auto 0;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+  width: 1050px;
+  height: 256px;
+  display: flex;
+  justify-content: space-between;
+  overflow: visible;
+}
+
+.video__iframe {
+  width: 515px;
+  margin: 0;
+  padding: 0;
+  bottom: -60px;
+}
+
+.oakley {
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding-top: 160px;
+}
+
 .digits {
   margin: 100px auto;
   display: flex;
@@ -148,18 +223,18 @@
 }
 
 .section-title {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 60%;
   margin-bottom: 20px;
-  line-height: 69px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
 }
 
 .section-subtitle {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 60%;
   line-height: 34px;
@@ -215,7 +290,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 70px;
   width: 775px;
   text-align: center;
@@ -252,6 +327,83 @@
   left: 0;
   width: 867px;
   z-index: 0;
+}
+
+.khan {
+  margin: 100px auto 0;
+  padding-top: 105px;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 68px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.khan__book-pic {
+  width: 620px;
+  margin-right: 48px;
+  margin-bottom: -338px;
+}
+
+.khan__buy-link {
+  margin: 0;
+  padding: 0;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 .kaufman {
@@ -308,6 +460,27 @@
   z-index: 1;
 }
 
+.resources {
+  margin: 100px auto 217px;
+}
+
+.resources__logo-zone {
+  list-style: none;
+  margin: none;
+  padding: none;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.resources__logo {
+  margin: 0;
+  padding: 0;
+  width: 270px;
+  height: 38px;
+}
+
 .footer {
   min-width: 1100px;
   max-width: 1600px;
@@ -335,6 +508,7 @@
   width: 183px;
   height: 35px;
 }
+
 .footer__author {
   margin: 0;
   padding: 0;
@@ -343,6 +517,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column-heading {
   margin: 0;
   padding: 0;
@@ -351,11 +526,13 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 .footer__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 .footer__column-link {
   margin: 0;
   padding: 0;
@@ -367,6 +544,7 @@
   display: flex;
   align-items: center;
 }
+
 .footer__social-icons {
   width: 16px;
   height: 16px;
