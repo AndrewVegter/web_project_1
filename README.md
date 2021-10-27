@@ -10,9 +10,9 @@ This project was made with the goal that anyone with half a brain can scroll thr
   * __*ROTATING SHAPES*__! I mean, who doesn't love those? Bonus points if you can name the shapes!
 
 ### This webpage was made using
-  1. HTML
-  2. CSS
-  3. ~~Many, many tears...~~
+  * HTML
+  * CSS
+  * Some iframes, lots of links, a keyframe animation, several flex-boxes, a few unordered lists, and ~~many, many tears...~~
 
 ### This webpage should function well on recent versions of:
   * Chrome
