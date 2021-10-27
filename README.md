@@ -12,7 +12,7 @@ This project was made with the goal that anyone with half a brain can scroll thr
 ### This webpage was made using
   * HTML
   * CSS
-  * Some iframes, lots of links, a keyframe animation, several flex-boxes, a few unordered lists, and ~~many, many tears...~~
+  * Some iframes, lots of links, countless paragraphs, a keyframe animation, several flex-boxes, a few unordered lists, and ~~many, many tears...~~
 
 ### This webpage should function well on recent versions of:
   * Chrome
