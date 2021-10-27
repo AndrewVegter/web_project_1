@@ -4,15 +4,15 @@
 This project was made with the goal that anyone with half a brain can scroll through down the page clicking links, watching videos, and reading lists while hopefully becoming a better student of **everything**. Now, I know what you're thinking, because I'm thinking it, too. How can one *learn* how to *learn* if they have not first __*learned how to learn?*__ Unfortunately, I don't have an answer. But, maybe after utilizing this webpage, and studying rigourously, you'll be able to tell me ;)!
 
 ###This webpage consists of:
-  * Lists (<ul>) of diverse strategies, from the **galaxy** brains of Richard Feynman, Barbara Oakley, and Josh Kaufman.
-  * Useful resouces, from YouTube videos (<iframe>), to links (<a>) to external (and possibly forbidden?) knowledge.
-  * Pictures (<img>) of things for those of us who can't stare at words (<p>, <h1>, etc.) for too long without going crosseyed.
-  * __*ROTATING SHAPES*__ (CSS animations)! I mean, who doesn't love those? Bonus points if you can name the shapes!
+  * Lists of diverse strategies, from the **galaxy** brains of Richard Feynman, Barbara Oakley, and Josh Kaufman.
+  * Useful resouces, from YouTube videos, to links to external (and possibly forbidden?) knowledge.
+  * Pictures of things for those of us who can't stare at words (<p>, <h1>, etc.) for too long without going crosseyed.
+  * __*ROTATING SHAPES*__! I mean, who doesn't love those? Bonus points if you can name the shapes!
 
 ### This webpage was made using
   1. HTML
   2. CSS
-  ~~3. Many, many tears...~~
+  3. ~~Many, many tears...~~
 
 ### This webpage should function well on recent versions of:
   * Chrome
