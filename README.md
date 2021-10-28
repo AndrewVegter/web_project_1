@@ -21,7 +21,12 @@ This project was made with the goal that anyone with half a brain can scroll thr
   * God forbid, Opera? I've never even met anyone who uses Opera.. ~~Why Opera?~~ You know what, nevermind.
   * IE (Hi, Grandma!)
   * Edge 
-  
-### Possible changes:
+
+### Changes made
+  * Adjusted various dimensions for better compatability with various screen sizes.
+  * Cleaned up code by removing empty elements and adjusting margin properties.
+  * Moved iFrame dimensions from HTML file to appropriate stylesheet.
+
+### Possible changes
   * Adjusting the position of the rotating blue triangle because for whatever reason in the project 2 brief the position has seemingly shifted down with no explanation (or coordinates) given.
   * Adding a new section with some resources that I personally found useful or interesting. Such as [this video](https://www.youtube.com/watch?v=UBVV8pch1dM&t=1s&ab_channel=Veritasium).
