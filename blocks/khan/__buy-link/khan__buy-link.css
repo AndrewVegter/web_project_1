@@ -6,7 +6,12 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .khan__buy-link:hover {

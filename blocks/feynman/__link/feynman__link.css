@@ -10,6 +10,8 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 1;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
 }
 

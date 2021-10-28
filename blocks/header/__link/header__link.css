@@ -3,6 +3,8 @@
   padding: 0;
   color: #2f80ed;
   text-decoration: none;
+  -webkit-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
   transition: opacity 0.5s linear;
 }
 
